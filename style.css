@@ -127,7 +127,7 @@ body {
 
 .container {
   position: relative;
-  margin-bottom: 10rem;
+  margin-bottom: 11rem;
   margin-top: 10rem;
 }
 
@@ -395,4 +395,30 @@ body {
 .container-photos img:hover {
   opacity: 1;
   transform: perspective(800px) rotateY(0deg);
+}
+
+/*? HER */
+
+#her-container {
+  margin-top: 10rem;
+  margin-bottom: 2.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.tag {
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 1rem;
+  background: #f5ebdd; 
+  color: #5a4a42;
+  border: 1px solid #e8d9c8;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+  white-space: nowrap;
 }
