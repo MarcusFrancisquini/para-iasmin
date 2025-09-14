@@ -427,7 +427,7 @@ body {
 
 .music-section {
   display: flex;
-  margin-top: 3rem;
+  margin-top: 4rem;
   gap: 8rem;
 }
 
@@ -469,4 +469,16 @@ body {
 .spotify-logo {
   width: 75px;
   margin-top: 1rem;
+}
+
+/*? FOOTER */
+
+footer {
+  margin-top: 7rem;
+  margin-bottom: 1.4rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--title-color);
 }
