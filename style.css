@@ -416,9 +416,57 @@ body {
   padding: 8px 12px;
   border-radius: 999px;
   font-size: 1rem;
-  background: #f5ebdd; 
+  background: #f5ebdd;
   color: #5a4a42;
   border: 1px solid #e8d9c8;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
   white-space: nowrap;
+}
+
+/*? MUSIC */
+
+.music-section {
+  display: flex;
+  margin-top: 3rem;
+  gap: 8rem;
+}
+
+.music-card {
+  background-color: #af6252;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  height: fit-content;
+}
+
+.song-detail {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.song-detail img {
+  width: 50px;
+  border-radius: 6px;
+}
+
+.title-song {
+  font-size: 16px;
+}
+
+.artist-song {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.lyrics {
+  font-size: 20px;
+}
+
+.spotify-logo {
+  width: 75px;
+  margin-top: 1rem;
 }
